@@ -91,5 +91,42 @@ Our analysis reveals that during the Covid-19 pandemic, discussions around indiv
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fake-news-lab.git
+   git clone https://github.com/Kr-Yan/fake-news-lab.git
    cd fake-news-lab
+   
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+
+### Running the Analysis
+
+1. Data Preprocessing:
+   ```bash
+   python scripts/preprocess_data.py
+
+2. LDA Analysis:
+   ```bash
+   python scripts/run_lda.py
+
+3. Text Summarization:
+   ```bash
+   python scripts/summarize_text.py
+
+4. Visualization:
+   ```bash
+   python scripts/visualize_results.py
+
+### Output
+- The results and visualizations are saved in the output/ directory.
+
+## Future Work
+To improve the analysis, future work could explore:
+
+1. Combining classification models with text summarization to enhance topic detection.
+2. Addressing the causal inference problem by analyzing the simultaneity of keyword popularity and discussion frequency.
+
+## Authors
+Dang Pham
+Kairuo Yan
+
+
