@@ -126,7 +126,7 @@ To improve the analysis, future work could explore:
 2. Addressing the causal inference problem by analyzing the simultaneity of keyword popularity and discussion frequency.
 
 ## Authors
-Dang Pham
-Kairuo Yan
+- Dang Pham
+- Kairuo Yan
 
 
